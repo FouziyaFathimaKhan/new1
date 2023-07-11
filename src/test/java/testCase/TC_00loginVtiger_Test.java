@@ -15,7 +15,7 @@ public class TC_00loginVtiger_Test extends BaseClass {
 
 	@Test
 	public void TC_00() {
-		//System.out.println("hi");
+		System.out.println("hi");
 		SoftAssert soft = new SoftAssert();
 		if (loginPag.getPageHeader().getText().contains("vtiger")) {
 			soft.assertEquals(true, true);
